@@ -121,7 +121,7 @@
                     <div class="row mb-2 g-1 align-items-center">
                         <div class="col text-end">
                             <input class="btn btn-secondary" type="reset" value="Reset">
-                            <input class="btn btn-primary" type="submit" id="saveContactBtn" value="Save">
+                            <input class="btn btn-primary" type="submit" id="registerBtn" value="Save">
                         </div>
                     </div>
                 </form>
@@ -138,12 +138,7 @@
         $("input:reset").click(() => {
             $(".text-danger").text('');
             $(".text-danger").attr('hidden', true);
-        })
-        // document.getElementById("saveContactBtn").addEventListener("click", function () {
-        //     saveContact();
-        //     window.location.pathname = window.location.pathname.replace(/(.*)\/[^/]*/, "$1/" + "index.html");
-        //     //$(location).attr('href', "contacts.html");
-        // });
+        });
     </script>
     <script src="js/main.js"></script>
 </body>
